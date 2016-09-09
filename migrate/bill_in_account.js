@@ -5,7 +5,7 @@
 var path = require('path')
 
 // 完成发货单，并生成对应账单
-require('../../..')(path.join(__dirname, '../config'))
+require('moa2')(path.join(__dirname, '../config'))
 
 var User = $models.user
 

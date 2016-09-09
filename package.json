@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "DEBUG=moa2 && export NODE_ENV=development && ./node_modules/.bin/nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moa2": "^2.0.0"
+    "debug": "^2.2.0",
+    "moa2": "^2.0.0",
+    "mongoose": "^4.6.0",
+    "mongoosedao": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
   }
 }

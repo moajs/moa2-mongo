@@ -1,4 +1,4 @@
-var app = require('../../')(__dirname + '/config')
+var app = require('moa2')(__dirname + '/config')
 
 debug($config)
 debug($middlewares)
