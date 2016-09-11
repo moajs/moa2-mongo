@@ -1,5 +1,6 @@
 module.exports = {  
   home: __dirname,
+  // db_debug: true,
   middlewares:[
     'compress',
     'bodyparser',

@@ -4,13 +4,20 @@
 
 var path = require('path')
 
+global.log = console.log
 // 完成发货单，并生成对应账单
-require('moa2')(path.join(__dirname, '../config'))
+// require('moa2')(path.join(__dirname, '../config'))
+require('../db')
 
-var User = $models.user
+var User = require('../app/models/user')
+
+// console.log(User)
 
 User.find({}, function (err, docs) {
-  if (err) console.log(err)
+  if (err) {
+    console.log(err)
+  }
+  console.dir('docs')
   console.dir(docs)
-  process.exit()
+  // process.exit()
 })

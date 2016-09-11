@@ -9,7 +9,12 @@ var User = $models.user;
 
 exports.list = (ctx, next) => {
   console.log(ctx.method + ' /users => list, query: ' + JSON.stringify(ctx.query));
-
+  
+  console.log('list--')
+  
+  
+  log($models)
+  
   return User.getAllAsync().then(( users)=>{
     return ctx.render('users/index', {
       users : users
