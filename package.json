@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "co": "^4.6.0",
     "debug": "^2.2.0",
     "moa2": "^2",
     "mongoose": "4.0.5",
