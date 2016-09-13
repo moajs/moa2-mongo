@@ -1,7 +1,5 @@
 'use strict'
 
-require('./config/log.js')
-
 const mongoose = require('mongoose')
 
 var connectionString, options
