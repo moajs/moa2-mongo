@@ -8,4 +8,5 @@ debug($middlewares)
 debug($controllers)
 debug($models)
 
-app.start(4000);
+// app.start(4000);
+module.exports = app
