@@ -46,7 +46,7 @@ mongoose.connect(connectionString, options, function (err, res) {
 
 db = mongoose.connection
 
-db.on('error', error.bind(console, 'mongoose connection error:'))
+db.on('error', console.error.bind(console, 'mongoose connection error:'))
 
 db.once('open', function () {
   return log('mongoose open success')
