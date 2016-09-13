@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "DEBUG=moa2 && export NODE_ENV=development && ./node_modules/.bin/nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run l && npm start",
     "m": "DEBUG=moa2 && export NODE_ENV=development && node migrate/bill_in_account.js",
     "l": "npm i -S ../moa2"
   },
