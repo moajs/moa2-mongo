@@ -7,14 +7,14 @@
     "start": "DEBUG=moa2 && export NODE_ENV=development && ./node_modules/.bin/nodemon index.js",
     "test": "npm run l && npm start",
     "m": "DEBUG=moa2 && export NODE_ENV=development && node migrate/bill_in_account.js",
-    "l": "npm i -S ../moa2"
+    "l": "npm i ../moa2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "debug": "^2.2.0",
-    "moa2": "file:../moa2",
+    "moa2": "^2",
     "mongoose": "4.0.5",
     "mongoosedao": "^2.0.2"
   },
