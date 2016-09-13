@@ -6,7 +6,7 @@ var path = require('path')
 
 global.log = console.log
 // 完成发货单，并生成对应账单
-// require('moa2')(path.join(__dirname, '../config'))
+require('moa2')(path.join(__dirname, '../config'))
 require('../db')
 
 var User = require('../app/models/user')
