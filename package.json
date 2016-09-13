@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "debug": "^2.2.0",
     "moa2": "file:../moa2",
     "mongoose": "4.0.5",
     "mongoosedao": "^2.0.2"
