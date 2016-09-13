@@ -6,7 +6,8 @@
   "scripts": {
     "start": "DEBUG=moa2 && export NODE_ENV=development && ./node_modules/.bin/nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "m": "DEBUG=moa2 && export NODE_ENV=development && node migrate/bill_in_account.js"
+    "m": "DEBUG=moa2 && export NODE_ENV=development && node migrate/bill_in_account.js",
+    "l": "npm i -S ../moa2"
   },
   "keywords": [],
   "author": "",
