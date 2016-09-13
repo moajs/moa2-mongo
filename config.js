@@ -2,9 +2,9 @@ module.exports = {
   home: __dirname,
   // db_debug: true,
 
-  middlewares:{
-
-  },
+  // middlewares:{
+  //
+  // },
   
   routes:[{
     path: __dirname,
