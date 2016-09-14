@@ -1,6 +1,6 @@
 # Moa2mongo
 
-Moa2 v2 with mongodb
+Moa2 v2 with [mongoose](https://github.com/Automattic/mongoose) for mongodb
 
 - 支持Koa 2.x所有中间件写法
 - 支持moag生成器
