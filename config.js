@@ -12,9 +12,23 @@ module.exports = {
   }],
   
   database: {
-    'host': '127.0.0.1',
-    'port': '27017',
-    'db': 'moa-api',
-    'is_debug': true
+    "development": {
+      'host': '127.0.0.1',
+      'port': '27017',
+      'db': 'moa2-development',
+      'is_debug': true
+     },
+     "test": {
+      'host': '127.0.0.1',
+      'port': '27017',
+      'db': 'moa2-test',
+      'is_debug': true
+     },
+     "production": {
+      'host': '127.0.0.1',
+      'port': '27017',
+      'db': 'moa2-production',
+      'is_debug': false
+     }
   }
 }

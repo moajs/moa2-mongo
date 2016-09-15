@@ -3,7 +3,10 @@
 const mongoose = require('mongoose')
 
 var connectionString, options
-const config = $config.database
+
+const env = process.env.NODE_ENV || "development";
+const config = $config.database[env]
+
 
 const port = config.port
 var db = config.db
